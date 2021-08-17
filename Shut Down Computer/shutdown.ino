@@ -3,6 +3,7 @@
 #include "DigiKeyboard.h"
  
 void setup() {
+  DigiKeyboard.delay(1000);
   DigiKeyboard.sendKeyStroke(KEY_R | 0, MOD_GUI_LEFT);
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.delay(1000);
