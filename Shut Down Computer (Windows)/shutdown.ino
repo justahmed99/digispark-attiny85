@@ -1,4 +1,5 @@
 // This script will execute Windows shutdown command from PowerShell
+// This script only run in Microsoft Windows operating systems
 
 #include "DigiKeyboard.h"
  
